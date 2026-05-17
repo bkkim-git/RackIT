@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>RackIT</title>
+    <link rel="stylesheet" href="src/styles.css" />
+
+</head>
+<body>
+<main class="page">
+    <!-- 🔹 사진처럼 만드는 헤더 (1페이지 전체) -->
+    <header class="site-header" id="hero">
+        <div class="header-overlay"></div>
+
+        <!-- 위에 긴 반투명 바 -->
+        <div class="top-bar">
+            <div class="top-bar-inner">
+                <div class="top-bar-left">
+                    <div class="logo-mark">🎾</div>
+                    <span class="logo-text">RackIT</span>
+                </div>
+
+                <div class="top-bar-right">
+                    <a href="#contact" class="contact-link">Contact</a>
+                    <button class="btn-login">LOG IN</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 가운데 큰 텍스트 영역 -->
+        <section class="hero-inner">
+            <div class="hero-content">
+                <h1 class="hero-title">RackIT</h1>
+                <p class="hero-desc">
+                    Rackit captures every swing, analyzes your form, and gives clear
+                    data that helps you improve
+                </p>
+
+                <div class="hero-buttons">
+                    <button class="btn-primary">ADD TO CART</button>
+                    <button class="btn-secondary">PRODUCT DETAILS</button>
+                </div>
+            </div>
+            <div class="hero-bottom-text">
+                OWN YOUR GAME
+            </div>
+        </section>
+        <!-- 맨 아래 HUGE 텍스트 -->
+    </header>
+    <section>
+        <div class="quote">
+            <p style="color: #345636;font-size: 50px;font-family: Inter">“REAL SWINGS. REAL DATA.
+                REAL IMPROVEMENT.”</p>
+            <p style="color: #345636; font-family: Inter;">PRECISION STARTS WITH A SINGLE HIT</p>
+        </div>
+
+    </section>
+    <!-- 🔹 밑에 이어지는 섹션들 (스크롤하면 여기로 스냅) -->
+    <section class="provide-section"  style="margin: 100px auto 0px;">
+        <h2 class="provide-title">What we provide?</h2>
+
+        <div class="provide-content">
+            <div class="provide-left">
+                <div class="provide-number">1</div>
+
+                <h3 class="provide-label">APPLICATION</h3>
+
+                <p class="provide-desc" style="margin-left: auto;">
+                    The application analyzes statistical data in real time to
+                    provide training insights and performance feedback
+                </p>
+
+                <button class="provide-btn">SEE MORE DETAILS</button>
+            </div>
+
+            <div class="provide-right">
+                <img
+                        src="src/images/app.png"
+                />
+            </div>
+        </div>
+    </section>
+    <section class="provide-section">
+        <div class="provide-content provide-content--device" style="margin: 50px auto 0px;">
+            <!-- 왼쪽: 디바이스 이미지 -->
+            <div class="provide-device-image" style="margin: 20px auto 0px;">
+                <img src="src/images/camera.png">
+            </div>
+
+            <!-- 오른쪽: 숫자 + 텍스트 -->
+            <div style="justify-content: center" class="provide-device-text" >
+                <div class="provide-number">2</div>
+
+                <h3 class="provide-label">PHYSICAL DEVICE</h3>
+
+                <p class="provide-desc">
+                    The physical device is a wearable band/camera that tracks foot
+                    movements and transmits motion data to the application.
+                </p>
+
+                <button class="provide-btn">SEE MORE DETAILS</button>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="provide-title">FOR WHOM?</div>
+
+        <div class="cards">
+            <div class="card">
+                <div class="visual">
+
+                </div>
+                <h3>Tennis players</h3>
+                <p>
+                    Use the footwork‑tracking band to optimize performance, monitor movement
+                    patterns, and prevent injuries.
+                </p>
+            </div>
+
+
+            <div class="card">
+                <div class="visual"></div>
+                <h3>Coaches/Trainers</h3>
+                <p>
+                    Utilize movement data to improve training programs and provide objective,
+                    data‑driven feedback.
+                </p>
+            </div>
+
+
+            <div class="card">
+                <div class="visual "></div>
+                <h3>Tennis club</h3>
+                <p>
+                    Integrate the technology to enhance training quality and offer advanced
+                    analytics to members.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section style="background-image: url('src/images/1.jpg');" class="step">
+        <div class="content">
+            <p class="step-head" >1. Play with device
+            </p>
+            <p class="step-content" style="margin-left: 0">
+                Wear the footwork-tracking band during practice to capture all movement
+                data in real time.            </p>
+
+        </div>
+    </section>
+
+    <section style="background-image:url('src/images/2.jpg'); " class="step">
+        <div class="content">
+            <p class="step-head">
+                2. Camera for overall playing
+            </p>
+            <p class="step-content">
+                Record the session with a camera to collect full-court visual context alongside sensor data.
+            </p>
+        </div>
+    </section>
+
+    <section style="background-image:url('src/images/3.jpg'); " class="step">
+        <div class="content">
+            <p class="step-head" >
+                2. Feedback from app
+            </p>
+            <p class="step-content" style="margin-left: 0">
+                Review combined sensor and video insights in the app to receive personalized feedback and improvement tips
+            </p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-inner">
+            <!-- 왼쪽 -->
+            <div class="contact-left">
+                <h2 class="contact-title">CONTACT US!</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" placeholder="Your name" />
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="you@example.com" />
+                    </div>
+
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea placeholder="Write your message here..."></textarea>
+                    </div>
+
+                    <button type="submit" class="contact-submit">SEND MESSAGE</button>
+                </form>
+
+            </div>
+
+            <!-- 오른쪽 -->
+            <div class="contact-right">
+                <div class="testimonial-column">
+                    <div class="testimonial-track">
+
+                <div class="contact-card">
+                    <div class="card-head">
+                        <div class="avatar green">🐛</div>
+                        <div>
+                            <strong>Carl Caterpillar</strong>
+                            <p>Growth at Cocoon & Co.</p>
+                        </div>
+                    </div>
+                    <p class="card-text">
+                        Using this product felt like it transformed me completely.
+                    </p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="card-head">
+                        <div class="avatar pink">🦋</div>
+                        <div>
+                            <strong>Wanda Wingleton</strong>
+                            <p>Lepidopterist at Butterflai</p>
+                        </div>
+                    </div>
+                    <p class="card-text">
+                        Your expectations will fly sky high. I felt like I was soaring.
+                    </p>
+                </div>
+                        <!-- ORIGINAL -->
+                        <div class="contact-card">...</div>
+                        <div class="contact-card">...</div>
+
+                        <!-- CLONE (똑같이 복사) -->
+                        <div class="contact-card">...</div>
+                        <div class="contact-card">...</div>
+            </div>
+
+        </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
