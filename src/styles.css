@@ -505,7 +505,8 @@ section {
     background: white;
     border-radius: 18px;
     padding: 22px 26px;
-    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    transition: transform 0.3s ease;
+
 }
 
 .card-head {
@@ -650,9 +651,6 @@ section {
     }
 }
 
-.contact-card {
-    transition: transform 0.3s ease;
-}
 
 .contact-card:hover {
     transform: translateY(-6px) scale(1.01);
