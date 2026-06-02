@@ -8,15 +8,15 @@
 </head>
 <body>
 <main class="page">
-    <!-- 🔹 사진처럼 만드는 헤더 (1페이지 전체) -->
     <header class="site-header" id="hero">
         <div class="header-overlay"></div>
 
-        <!-- 위에 긴 반투명 바 -->
         <div class="top-bar">
             <div class="top-bar-inner">
                 <div class="top-bar-left">
-                    <div class="logo-mark">🎾</div>
+                    <div class="logo-mark">
+                        <img src="src/images/logo.png">
+                    </div>
                     <span class="logo-text">RackIT</span>
                 </div>
 
@@ -27,7 +27,6 @@
             </div>
         </div>
 
-        <!-- 가운데 큰 텍스트 영역 -->
         <section class="hero-inner">
             <div class="hero-content">
                 <h1 class="hero-title">RackIT</h1>
@@ -45,7 +44,6 @@
                 OWN YOUR GAME
             </div>
         </section>
-        <!-- 맨 아래 HUGE 텍스트 -->
     </header>
     <section>
         <div class="quote">
@@ -55,7 +53,7 @@
         </div>
 
     </section>
-    <!-- 🔹 밑에 이어지는 섹션들 (스크롤하면 여기로 스냅) -->
+
     <section class="provide-section"  style="margin: 100px auto 0px;">
         <h2 class="provide-title">What we provide?</h2>
 
@@ -82,12 +80,12 @@
     </section>
     <section class="provide-section">
         <div class="provide-content provide-content--device" style="margin: 50px auto 0px;">
-            <!-- 왼쪽: 디바이스 이미지 -->
+
             <div class="provide-device-image" style="margin: 20px auto 0px;">
                 <img src="src/images/camera.png">
             </div>
 
-            <!-- 오른쪽: 숫자 + 텍스트 -->
+
             <div style="justify-content: center" class="provide-device-text" >
                 <div class="provide-number">2</div>
 
@@ -103,34 +101,37 @@
         </div>
     </section>
     <section class="section">
-        <div class="provide-title">FOR WHOM?</div>
+        <div class="provide-title" style="z-index: 1;">FOR WHOM?</div>
 
         <div class="cards">
             <div class="card">
                 <div class="visual">
-
+                    <img src="src/images/player.jpg"/>
                 </div>
-                <h3>Tennis players</h3>
+                <p style="font-size: 30px; font-family: MyFont; margin: 15px 0;!important;">Tennis players</p>
                 <p>
-                    Use the footwork‑tracking band to optimize performance, monitor movement
-                    patterns, and prevent injuries.
+                    Utilize the product to improve their skills and correct form.
                 </p>
             </div>
 
 
             <div class="card">
-                <div class="visual"></div>
-                <h3>Coaches/Trainers</h3>
-                <p>
-                    Utilize movement data to improve training programs and provide objective,
-                    data‑driven feedback.
-                </p>
+                <div class="visual">
+                    <img src="src/images/coach.jpg"/>
+                </div>
+                <p style="font-size: 30px; font-family: MyFont; margin: 15px 0;!important;">Coaches/Trainers</p>
+                    <p>
+                        Utilize movement data to improve training programs and provide objective,
+                        data‑driven feedback.
+                    </p>
             </div>
 
 
             <div class="card">
-                <div class="visual "></div>
-                <h3>Tennis club</h3>
+                <div class="visual ">
+                    <img src="src/images/club.jpg"/>
+                </div>
+                <p style="font-size: 30px; font-family: MyFont; margin: 15px 0;!important;">Tennis club</p>
                 <p>
                     Integrate the technology to enhance training quality and offer advanced
                     analytics to members.
@@ -144,7 +145,7 @@
             <p class="step-head" >1. Play with device
             </p>
             <p class="step-content" style="margin-left: 0">
-                Wear the footwork-tracking band during practice to capture all movement
+                Use computer vision to track the footwork during practice to capture all movement
                 data in real time.            </p>
 
         </div>
@@ -174,7 +175,7 @@
 
     <section id="contact" class="contact-section">
         <div class="contact-inner">
-            <!-- 왼쪽 -->
+
             <div class="contact-left">
                 <h2 class="contact-title">CONTACT US!</h2>
                 <form class="contact-form">
@@ -198,7 +199,7 @@
 
             </div>
 
-            <!-- 오른쪽 -->
+
             <div class="contact-right">
                 <div class="testimonial-column">
                     <div class="testimonial-track">
@@ -228,11 +229,9 @@
                         Your expectations will fly sky high. I felt like I was soaring.
                     </p>
                 </div>
-                        <!-- ORIGINAL -->
                         <div class="contact-card">...</div>
                         <div class="contact-card">...</div>
 
-                        <!-- CLONE (똑같이 복사) -->
                         <div class="contact-card">...</div>
                         <div class="contact-card">...</div>
             </div>
